@@ -1,0 +1,8 @@
+node_modules/
+reports/
+research-cache/
+*.tar.gz
+*.zip
+__pycache__/
+.DS_Store
+coverage/

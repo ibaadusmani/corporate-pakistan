@@ -1,0 +1,11 @@
+import { cp, mkdir, readFile, writeFile } from 'node:fs/promises';
+import { validateDataset } from '../src/analytics.js';
+const data = JSON.parse(await readFile(new URL('../data/ownership.json',import.meta.url),'utf8'));
+const errors = validateDataset(data);
+if (errors.length) throw new Error(errors.join('\n'));
+await mkdir('dist/data',{recursive:true});
+for (const file of ['index.html','styles.css','app.js','analytics.js']) await cp(`src/${file}`,`dist/${file}`);
+await cp('data/ownership.json','dist/data/ownership.json');
+await cp('data/relationships.csv','dist/data/relationships.csv');
+await writeFile('dist/.nojekyll','');
+console.log(`Built ${data.entities.length} entities, ${data.relationships.length} relationships, ${data.sources.length} sources.`);

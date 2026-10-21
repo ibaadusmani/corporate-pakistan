@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#143d33">
+  <meta name="description" content="Follow the publicly disclosed ownership of Pakistan’s companies. An independent, source-linked atlas of corporate connections.">
+  <title>Corporate Pakistan — Ownership Atlas</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%23143d33'/%3E%3Cpath d='M12 34V15h8v11h8V12h8v22' fill='none' stroke='%23d9e9a4' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="#atlas" aria-label="Corporate Pakistan home"><span class="brand-mark">cp<span>↗</span></span><span>corporate<span class="brand-second">pakistan</span></span></a>
+    <nav aria-label="Main navigation">
+      <button data-tab="atlas" class="nav-btn active">Ownership atlas</button>
+      <button data-tab="research" class="nav-btn">Research notes</button>
+      <button data-tab="lab" class="nav-btn">Analysis lab</button>
+      <button data-tab="data" class="nav-btn">Sources & data</button>
+    </nav>
+    <button class="text-button methodology-open">Methodology <span>↗</span></button>
+  </header>
+  <main id="main">
+    <section class="intro">
+      <div><div class="eyebrow"><span class="live-dot"></span> AN INDEPENDENT OPEN-DATA PROJECT <span class="edition">/ V1.0</span></div>
+      <h1>Follow the ownership.<br><em>See the connections.</em></h1>
+      <p>A source-linked atlas of Pakistan’s corporate networks.<br class="desktop"> Explore disclosed stakes, shared directors, and the companies in between.</p></div>
+      <div class="intro-aside"><span class="index-label">IN THE ATLAS</span><div class="stats" id="stats"><span>Loading verified data…</span></div><div class="snapshot-note">Dated disclosures · Selected coverage · No inferred control</div></div>
+    </section>
+    <div id="loading" role="status">Loading the ownership atlas…</div>
+    <div id="app" hidden>
+      <section id="atlas-view" class="tab-view">
+        <div class="workspace">
+          <aside class="filter-panel" aria-label="Explore and filter">
+            <div class="panel-label">01 / EXPLORE</div>
+            <label class="field-label" for="search">Find a company or shareholder</label>
+            <div class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="Try Fauji, Engro, MARI…" autocomplete="off"><kbd>/</kbd></div>
+            <div id="search-results" class="search-results" hidden></div>
+            <div class="filter-section"><div class="section-heading">Business networks<button id="reset-filters" class="tiny-button">Reset</button></div><div id="group-filters" class="group-filters"></div></div>
+            <div class="filter-section"><div class="section-heading">Relationship layers</div>
+              <label class="check-row"><input type="checkbox" name="layer" value="ownership" checked><span class="line-key ownership"></span> Disclosed ownership</label>
+              <label class="check-row"><input type="checkbox" name="layer" value="affiliation" checked><span class="line-key affiliation"></span> Disclosed affiliation</label>
+              <label class="check-row"><input type="checkbox" name="layer" value="director" checked><span class="line-key director"></span> Board connection</label>
+            </div>
+            <div class="filter-section"><label class="field-label" for="snapshot">Reporting snapshot</label><select id="snapshot"><option value="all">All snapshots · mixed dates</option></select><p class="micro">Each link keeps its own date. Undated web disclosures are labelled separately.</p></div>
+            <div class="filter-section"><div class="section-heading"><label for="min-stake">Minimum disclosed stake</label><span id="stake-label">0%</span></div><input id="min-stake" type="range" min="0" max="100" step="1" value="0"><p class="micro">Applies to numerical ownership links only.</p></div>
+            <div class="sidebar-foot"><span class="small-mark">↳</span><p>Every connection has a source.<br>Click a node, then open its evidence.</p></div>
+          </aside>
+          <section class="graph-panel" aria-label="Ownership network">
+            <div class="graph-toolbar"><div class="graph-title"><span class="live-dot"></span><span id="graph-title">The ownership atlas</span><span id="visible-count" class="count-pill"></span></div><div class="segmented" aria-label="View mode"><button id="network-mode" class="active">Network</button><button id="table-mode">Table</button></div></div>
+            <div class="graph-stage" id="graph-stage"><svg id="network" viewBox="0 0 1000 680" role="group" aria-label="Interactive corporate ownership network. Tab to a node and press Enter, or use the table view."></svg><div class="graph-caption"><span>PUBLICLY DISCLOSED RELATIONSHIPS</span><span>Arrow points from owner to investee</span></div><div class="graph-controls"><button id="zoom-in" aria-label="Zoom in">+</button><button id="zoom-out" aria-label="Zoom out">−</button><button id="zoom-reset" aria-label="Reset network view">⌖</button></div><div class="graph-empty" id="graph-empty" hidden>No connections match these filters.<button class="text-button" id="empty-reset">Reset filters ↗</button></div></div>
+            <div id="table-stage" hidden class="table-stage"></div>
+            <div class="graph-footer"><label class="check-row"><input id="labels" type="checkbox" checked> Node labels</label><label class="focus-select">Scope <select id="scope"><option value="all">All connections</option><option value="1">Selected · 1 step</option><option value="2">Selected · 2 steps</option></select></label><button class="text-button" id="share-view">Copy view link ↗</button></div>
+          </section>
+          <aside id="detail-panel" class="detail-panel" aria-live="polite"></aside>
+        </div>
+        <div class="coverage-strip"><span class="status-square"></span><p><strong>Read the map with its limits.</strong> This is a curated sample, not a complete shareholder register. A connection does not establish control, misconduct, or a family relationship.</p><button class="text-button methodology-open">How to interpret it ↗</button></div>
+        <section class="below-atlas"><div class="section-top"><div><div class="eyebrow">START WITH A QUESTION</div><h2>Three ways into the network.</h2></div><button class="text-button" data-tab="research">All research notes ↗</button></div><div class="story-grid" id="story-preview"></div></section>
+      </section>
+      <section id="research-view" class="tab-view" hidden><div class="section-top"><div><div class="eyebrow">02 / RESEARCH NOTES</div><h2>The stories are in the structure.</h2><p class="section-deck">Reproducible starting points drawn from the disclosures in this release.</p></div></div><div id="research-cards" class="research-cards"></div></section>
+      <section id="lab-view" class="tab-view" hidden><div class="section-top"><div><div class="eyebrow">03 / ANALYSIS LAB</div><h2>Trace a path. Test an overlap.</h2><p class="section-deck">Calculations use one exact reporting date. Missing coverage stays visible.</p></div></div>
+        <div class="lab-grid"><section class="lab-card"><div class="panel-label">OWNERSHIP PATHS</div><h3>Follow the chain</h3><p>Find disclosed direct and indirect ownership paths, up to six steps.</p><label class="field-label" for="path-date">Exact reporting date</label><select id="path-date"></select><div class="two-fields"><div><label class="field-label" for="path-owner">Start with an owner</label><select id="path-owner"></select></div><div><label class="field-label" for="path-target">Reach an investee</label><select id="path-target"></select></div></div><button id="trace-path" class="primary-button">Trace ownership <span>↗</span></button><div id="path-results" class="analysis-results"></div><p class="micro">Path products assume proportional ordinary equity. They are not voting-control estimates. Cycles are not traversed; separate paths are not summed.</p></section>
+        <section class="lab-card"><div class="panel-label">PORTFOLIO OVERLAP</div><h3>Different stocks. Shared owners?</h3><p>Find direct shareholders that appear in more than one of your selected holdings.</p><label class="field-label" for="portfolio-date">Exact reporting date</label><select id="portfolio-date"></select><div id="positions" class="positions"></div><button id="add-position" class="text-button">+ Add a holding</button><button id="analyze-portfolio" class="primary-button">Find shared owners <span>↗</span></button><div id="portfolio-results" class="analysis-results"></div><p class="micro">Allocation overlap counts your portfolio weights in connected holdings. It is not an ownership-adjusted economic exposure or an investment recommendation.</p></section></div>
+      </section>
+      <section id="data-view" class="tab-view" hidden><div class="section-top"><div><div class="eyebrow">04 / SOURCES & DATA</div><h2>Inspect the evidence.</h2><p class="section-deck">Source documents, dated observations, and portable data you can audit.</p></div><div class="export-actions"><button class="secondary-button" id="export-csv">Download links .csv ↓</button><button class="primary-button" id="export-json">Download dataset .json ↓</button></div></div><div class="data-summary" id="data-summary"></div><div class="sources-list" id="sources-list"></div></section>
+    </div>
+  </main>
+  <footer><div class="brand-footer">corporate pakistan<span>Ownership Atlas</span></div><p>Created by Ibaad Usmani · Independent research project<br>Public disclosures. Explicit dates. Traceable connections.</p><button class="text-button methodology-open">Methodology & limitations ↗</button></footer>
+  <dialog id="methodology-dialog"><div class="dialog-header"><div><div class="eyebrow">READING THE ATLAS</div><h2>Evidence before inference.</h2></div><button id="close-methodology" class="icon-button" aria-label="Close methodology">×</button></div><div class="methodology-body"><h3>What a connection means</h3><p><strong>Ownership</strong> records a named shareholder or investor in a source. A percentage appears only when explicitly disclosed. <strong>Affiliation</strong> records an explicitly stated group or related-company connection, without inventing a stake. <strong>Board connections</strong> record a named directorship; they do not establish common control.</p><h3>Dates matter</h3><p>Annual reports are snapshots. “All snapshots” combines observations for exploration, not a simultaneous ownership structure. An undated company webpage is labelled undated even when its access date is known. The analysis lab multiplies stakes only at the same exact reporting date.</p><h3>How evidence is reviewed</h3><p>Records in this release were curated against official company disclosures or PSX-hosted documents. Automated text extraction assists research; it does not approve relationships. Each link points to its evidence and available page or section. “Reviewed” means a source was checked for the stated fact, not independently audited or guaranteed accurate.</p><h3>What is missing</h3><p>This is selected coverage. Small shareholders, private holding layers, nominee arrangements, ultimate beneficial ownership, and some transactions may be unavailable. Missing links mean unknown, not zero. Aggregate shareholder categories are not converted into named ownership links.</p><h3>Group colours and calculations</h3><p>Colours organise research networks; they do not calculate control. Ownership path products assume proportional economic rights. They are shown separately, not summed across overlapping or circular structures. Portfolio overlap describes shared named direct shareholders within the available snapshot.</p><h3>Responsible interpretation</h3><p>A publicly disclosed connection does not imply misconduct, political influence, or coordination. Family relationships are not inferred from surnames. This project is educational research and does not provide investment recommendations.</p><h3>Corrections and reuse</h3><p>To reproduce or challenge a finding, download the dataset, identify its relationship ID, and check the linked source and reporting date. See the repository’s methodology and contribution guide for the review process. Original reports remain the property of their respective publishers.</p></div></dialog>
+  <div id="toast" role="status" class="toast" hidden></div>
+</body>
+</html>

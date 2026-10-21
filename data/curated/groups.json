@@ -1,0 +1,1230 @@
+{
+  "entities": [
+    {
+      "id": "engro-holdings",
+      "name": "Engro Holdings Limited",
+      "short_name": "Engro Holdings",
+      "ticker": "ENGROH",
+      "type": "company",
+      "sector": "Holding company",
+      "group": "engro",
+      "description": "Formerly Dawood Hercules Corporation; listed holding company after the scheme effective January 1, 2025."
+    },
+    {
+      "id": "engro-corporation",
+      "name": "Engro Corporation Limited",
+      "short_name": "Engro Corporation",
+      "ticker": null,
+      "type": "company",
+      "sector": "Holding company",
+      "group": "engro",
+      "description": "Wholly owned subsidiary of Engro Holdings after January 1, 2025; distinct legal entity from its listed parent."
+    },
+    {
+      "id": "engro-fertilizers",
+      "name": "Engro Fertilizers Limited",
+      "short_name": "Engro Fertilizers",
+      "ticker": "EFERT",
+      "type": "company",
+      "sector": "Fertilizer",
+      "group": "engro",
+      "description": "Listed fertilizer manufacturer; 56.27% held by Engro Corporation in the 2025 snapshot."
+    },
+    {
+      "id": "engro-polymer",
+      "name": "Engro Polymer & Chemicals Limited",
+      "short_name": "Engro Polymer",
+      "ticker": "EPCL",
+      "type": "company",
+      "sector": "Chemicals",
+      "group": "engro",
+      "description": "Listed PVC and chlor-alkali manufacturer."
+    },
+    {
+      "id": "frieslandcampina-engro",
+      "name": "FrieslandCampina Engro Pakistan Limited",
+      "short_name": "FrieslandCampina Engro",
+      "ticker": "FCEPL",
+      "type": "company",
+      "sector": "Food & dairy",
+      "group": "engro",
+      "description": "Engro Corporation minority associate; the disclosed Engro stake does not establish ultimate control. Description refers to the 31 December 2025 report snapshot."
+    },
+    {
+      "id": "engro-energy",
+      "name": "Engro Energy Limited",
+      "short_name": "Engro Energy",
+      "ticker": null,
+      "type": "company",
+      "sector": "Energy",
+      "group": "engro",
+      "description": "Investment holding platform for power and mining assets. Description refers to the 31 December 2025 report snapshot."
+    },
+    {
+      "id": "engro-eximp-fze",
+      "name": "Engro Eximp FZE",
+      "short_name": "Engro Eximp FZE",
+      "ticker": null,
+      "type": "company",
+      "sector": "Commodity trading",
+      "group": "engro",
+      "description": "Dubai commodity trading subsidiary of Engro Corporation. Description refers to the 31 December 2025 report snapshot."
+    },
+    {
+      "id": "engro-connect",
+      "name": "Engro Connect (Private) Limited",
+      "short_name": "Engro Connect",
+      "ticker": null,
+      "type": "company",
+      "sector": "Telecom infrastructure",
+      "group": "engro",
+      "description": "Telecom infrastructure holding company owning Enfrashare and Deodar in the 2025 snapshot."
+    },
+    {
+      "id": "engro-enfrashare",
+      "name": "Engro Enfrashare (Private) Limited",
+      "short_name": "Engro Enfrashare",
+      "ticker": null,
+      "type": "company",
+      "sector": "Telecom infrastructure",
+      "group": "engro",
+      "description": "Tower infrastructure company held through Engro Connect. Description refers to the 31 December 2025 report snapshot."
+    },
+    {
+      "id": "deodar",
+      "name": "Deodar (Private) Limited",
+      "short_name": "Deodar",
+      "ticker": null,
+      "type": "company",
+      "sector": "Telecom infrastructure",
+      "group": "engro",
+      "description": "Former Jazz tower subsidiary vested in Engro Connect effective June 3, 2025."
+    },
+    {
+      "id": "engro-technical-solutions",
+      "name": "Engro Technical Solutions (Private) Limited",
+      "short_name": "Engro Technical Solutions",
+      "ticker": null,
+      "type": "company",
+      "sector": "Engineering services",
+      "group": "engro",
+      "description": "Engineering and consulting subsidiary. Description refers to the 31 December 2025 report snapshot."
+    },
+    {
+      "id": "engro-vopak",
+      "name": "Engro Vopak Terminal Limited",
+      "short_name": "Engro Vopak",
+      "ticker": null,
+      "type": "company",
+      "sector": "Terminals",
+      "group": "engro",
+      "description": "50:50 joint venture; Engro share is not sole ownership."
+    },
+    {
+      "id": "elengy-terminal-pakistan",
+      "name": "Elengy Terminal Pakistan Limited",
+      "short_name": "Elengy Terminal Pakistan",
+      "ticker": null,
+      "type": "company",
+      "sector": "LNG infrastructure",
+      "group": "engro",
+      "description": "Parent company of Engro Elengy Terminal; distinct legal entity from its operating subsidiary. Description refers to the 31 December 2025 report snapshot."
+    },
+    {
+      "id": "engro-elengy-terminal",
+      "name": "Engro Elengy Terminal (Private) Limited",
+      "short_name": "Engro Elengy Terminal",
+      "ticker": null,
+      "type": "company",
+      "sector": "LNG infrastructure",
+      "group": "engro",
+      "description": "LNG terminal operating subsidiary, wholly owned by Elengy Terminal Pakistan. Description refers to the 31 December 2025 report snapshot."
+    },
+    {
+      "id": "yunus-brothers-group",
+      "name": "Yunus Brothers Group",
+      "short_name": "Yunus Brothers Group",
+      "ticker": null,
+      "type": "group",
+      "sector": "Diversified group",
+      "group": "lucky",
+      "description": "Business-group label; affiliation is not an equity stake."
+    },
+    {
+      "id": "lucky-cement",
+      "name": "Lucky Cement Limited",
+      "short_name": "Lucky Cement",
+      "ticker": "LUCK",
+      "type": "company",
+      "sector": "Cement",
+      "group": "lucky",
+      "description": "Listed cement company with investments in chemicals, automotive, power, and mining. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "lucky-core",
+      "name": "Lucky Core Industries Limited",
+      "short_name": "Lucky Core Industries",
+      "ticker": "LCI",
+      "type": "company",
+      "sector": "Chemicals & pharmaceuticals",
+      "group": "lucky",
+      "description": "Formerly ICI Pakistan; 55% direct investment of Lucky Cement. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "lucky-holdings",
+      "name": "Lucky Holdings Limited",
+      "short_name": "Lucky Holdings",
+      "ticker": null,
+      "type": "company",
+      "sector": "Holding company",
+      "group": "lucky",
+      "description": "75% owned investment subsidiary. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "lcl-investment-holdings",
+      "name": "LCL Investment Holdings Limited",
+      "short_name": "LCL Investment Holdings",
+      "ticker": null,
+      "type": "company",
+      "sector": "Holding company",
+      "group": "lucky",
+      "description": "Wholly owned international investment holding subsidiary. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "lucky-electric",
+      "name": "Lucky Electric Power Company Limited",
+      "short_name": "Lucky Electric Power",
+      "ticker": null,
+      "type": "company",
+      "sector": "Power",
+      "group": "lucky",
+      "description": "660MW power generation subsidiary. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "lucky-motor",
+      "name": "Lucky Motor Corporation Limited",
+      "short_name": "Lucky Motor",
+      "ticker": null,
+      "type": "company",
+      "sector": "Automotive & electronics",
+      "group": "lucky",
+      "description": "Vehicle assembly and mobile-device manufacturing; the report states 71.14% ownership."
+    },
+    {
+      "id": "yunus-energy",
+      "name": "Yunus Energy Limited",
+      "short_name": "Yunus Energy",
+      "ticker": null,
+      "type": "company",
+      "sector": "Renewable power",
+      "group": "lucky",
+      "description": "Associate; Lucky Cement holds 20%. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "national-resources",
+      "name": "National Resources (Private) Limited",
+      "short_name": "National Resources",
+      "ticker": null,
+      "type": "company",
+      "sector": "Mining",
+      "group": "lucky",
+      "description": "Mining exploration associate; report rounds the stake to 33.3%. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "yunus-textile",
+      "name": "Yunus Textile Mills Limited",
+      "short_name": "Yunus Textile",
+      "ticker": null,
+      "type": "company",
+      "sector": "Textiles",
+      "group": "lucky",
+      "description": "Named corporate shareholder of Lucky Cement."
+    },
+    {
+      "id": "lucky-energy",
+      "name": "Lucky Energy (Private) Limited",
+      "short_name": "Lucky Energy",
+      "ticker": null,
+      "type": "company",
+      "sector": "Power",
+      "group": "lucky",
+      "description": "Named corporate shareholder of Lucky Cement; separate from Lucky Electric."
+    },
+    {
+      "id": "lucky-core-powergen",
+      "name": "Lucky Core PowerGen Limited",
+      "short_name": "Lucky Core PowerGen",
+      "ticker": null,
+      "type": "company",
+      "sector": "Power",
+      "group": "lucky",
+      "description": "Wholly owned subsidiary of Lucky Core Industries. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "lucky-tg",
+      "name": "Lucky TG (Private) Limited",
+      "short_name": "Lucky TG",
+      "ticker": null,
+      "type": "company",
+      "sector": "Glass manufacturing",
+      "group": "lucky",
+      "description": "51% Lucky Core investment in a float glass joint venture. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "muhammad-ali-tabba",
+      "name": "Muhammad Ali Tabba",
+      "short_name": "Muhammad Ali Tabba",
+      "ticker": null,
+      "type": "person",
+      "sector": "Corporate leadership",
+      "group": "lucky",
+      "description": "Disclosed CEO/director of Lucky Cement and chairman/vice-chairman in other covered companies."
+    },
+    {
+      "id": "nishat-group",
+      "name": "Nishat Group",
+      "short_name": "Nishat Group",
+      "ticker": null,
+      "type": "group",
+      "sector": "Diversified group",
+      "group": "nishat",
+      "description": "Business-group label; affiliation edges do not specify legal equity ownership."
+    },
+    {
+      "id": "nishat-mills",
+      "name": "Nishat Mills Limited",
+      "short_name": "Nishat Mills",
+      "ticker": "NML",
+      "type": "company",
+      "sector": "Textiles",
+      "group": "nishat",
+      "description": "Listed textile company; reciprocal shareholding with DG Khan Cement is disclosed."
+    },
+    {
+      "id": "dg-khan-cement",
+      "name": "D.G. Khan Cement Company Limited",
+      "short_name": "DG Khan Cement",
+      "ticker": "DGKC",
+      "type": "company",
+      "sector": "Cement",
+      "group": "nishat",
+      "description": "Listed cement manufacturer with disclosed cross-investments. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "mcb-bank",
+      "name": "MCB Bank Limited",
+      "short_name": "MCB Bank",
+      "ticker": "MCB",
+      "type": "company",
+      "sector": "Banking",
+      "group": "nishat",
+      "description": "Listed bank; 8.63% direct stake held by DGKC across long and short term classifications. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "adamjee-insurance",
+      "name": "Adamjee Insurance Company Limited",
+      "short_name": "Adamjee Insurance",
+      "ticker": "AICL",
+      "type": "company",
+      "sector": "Insurance",
+      "group": "nishat",
+      "description": "Listed insurance company."
+    },
+    {
+      "id": "nishat-packaging",
+      "name": "Nishat Packaging Limited",
+      "short_name": "Nishat Packaging",
+      "ticker": null,
+      "type": "company",
+      "sector": "Packaging",
+      "group": "nishat",
+      "description": "Formerly Nishat Paper Products; 55% DGKC subsidiary. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "nishat-dairy",
+      "name": "Nishat Dairy (Private) Limited",
+      "short_name": "Nishat Dairy",
+      "ticker": null,
+      "type": "company",
+      "sector": "Food & dairy",
+      "group": "nishat",
+      "description": "55.10% DGKC subsidiary. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "nishat-hotels",
+      "name": "Nishat Hotels and Properties Limited",
+      "short_name": "Nishat Hotels",
+      "ticker": null,
+      "type": "company",
+      "sector": "Hospitality",
+      "group": "nishat",
+      "description": "Private hospitality investment; DGKC holds a minority stake. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "hyundai-nishat",
+      "name": "Hyundai Nishat Motor (Private) Limited",
+      "short_name": "Hyundai Nishat Motor",
+      "ticker": null,
+      "type": "company",
+      "sector": "Automotive",
+      "group": "nishat",
+      "description": "Private automotive company; DGKC holds 10%. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "nishat-chunian-power",
+      "name": "Nishat Chunian Power Limited",
+      "short_name": "Nishat Chunian Power",
+      "ticker": "NCPL",
+      "type": "company",
+      "sector": "Power",
+      "group": "nishat",
+      "description": "Listed power company; DGKC holds a small minority investment. Description refers to the 30 June 2025 report snapshot."
+    },
+    {
+      "id": "naz-mansha",
+      "name": "Naz Mansha",
+      "short_name": "Naz Mansha",
+      "ticker": null,
+      "type": "person",
+      "sector": "Corporate leadership",
+      "group": "nishat",
+      "description": "Named shareholder and chairperson in the DGKC report."
+    },
+    {
+      "id": "raza-mansha",
+      "name": "Raza Mansha",
+      "short_name": "Raza Mansha",
+      "ticker": null,
+      "type": "person",
+      "sector": "Corporate leadership",
+      "group": "nishat",
+      "description": "Named shareholder and chief executive/director in the DGKC report."
+    },
+    {
+      "id": "umer-mansha",
+      "name": "Umer Mansha",
+      "short_name": "Umer Mansha",
+      "ticker": null,
+      "type": "person",
+      "sector": "Shareholder",
+      "group": "nishat",
+      "description": "Named shareholder; no family relationship is inferred from the surname."
+    },
+    {
+      "id": "hassan-mansha",
+      "name": "Hassan Mansha",
+      "short_name": "Hassan Mansha",
+      "ticker": null,
+      "type": "person",
+      "sector": "Shareholder",
+      "group": "nishat",
+      "description": "Named shareholder; no family relationship is inferred from the surname."
+    },
+    {
+      "id": "hussain-dawood",
+      "name": "Hussain Dawood",
+      "short_name": "Hussain Dawood",
+      "ticker": null,
+      "type": "person",
+      "sector": "Corporate leadership",
+      "group": "engro",
+      "description": "Named shareholder and chairman of Engro Holdings in its FY2025 annual report; no family voting bloc is inferred."
+    }
+  ],
+  "sources": [
+    {
+      "id": "engro-2025-structure",
+      "title": "Engro Holdings Annual Report 2025 — group structure",
+      "publisher": "Engro Holdings Limited",
+      "url": "https://dps.psx.com.pk/download/document/273640.pdf",
+      "as_of": "2025-12-31",
+      "page": "Printed pp. 9–10; PDF spread 8",
+      "accessed": "2026-10-17",
+      "kind": "annual_report"
+    },
+    {
+      "id": "engro-2025-holdings",
+      "title": "Engro Holdings Annual Report 2025 — note 1.6 ownership table",
+      "publisher": "Engro Holdings Limited",
+      "url": "https://dps.psx.com.pk/download/document/273640.pdf",
+      "as_of": "2025-12-31",
+      "page": "Printed p. 198; PDF spread 102; note 1.6",
+      "accessed": "2026-10-17",
+      "kind": "annual_report"
+    },
+    {
+      "id": "engro-2025-subsidiaries",
+      "title": "Engro Holdings Annual Report 2025 — notes 1.7.3–1.7.10",
+      "publisher": "Engro Holdings Limited",
+      "url": "https://dps.psx.com.pk/download/document/273640.pdf",
+      "as_of": "2025-12-31",
+      "page": "Printed pp. 202–203; PDF spreads 104–105; notes 1.7.4.1 and 1.7.7",
+      "accessed": "2026-10-17",
+      "kind": "annual_report"
+    },
+    {
+      "id": "lucky-2025-investments",
+      "title": "Lucky Cement Annual Report 2025 — long-term investments",
+      "publisher": "Lucky Cement Limited",
+      "url": "https://assets.lucky-cement.com/Annual_Report_2025_7c9f8f1249.pdf",
+      "as_of": "2025-06-30",
+      "page": "Printed page 254 (PDF page 256)",
+      "accessed": "2026-10-17",
+      "kind": "annual_report"
+    },
+    {
+      "id": "lucky-2025-subsidiaries",
+      "title": "Lucky Cement Annual Report 2025 — group operations",
+      "publisher": "Lucky Cement Limited",
+      "url": "https://assets.lucky-cement.com/Annual_Report_2025_7c9f8f1249.pdf",
+      "as_of": "2025-06-30",
+      "page": "Printed p. 295; PDF p. 297; note 1.5",
+      "accessed": "2026-10-17",
+      "kind": "annual_report"
+    },
+    {
+      "id": "lucky-2025-shareholders",
+      "title": "Lucky Cement Annual Report 2025 — related-party direct shareholdings",
+      "publisher": "Lucky Cement Limited",
+      "url": "https://assets.lucky-cement.com/Annual_Report_2025_7c9f8f1249.pdf",
+      "as_of": "2025-06-30",
+      "page": "Printed page 274 (PDF page 276)",
+      "accessed": "2026-10-17",
+      "kind": "annual_report"
+    },
+    {
+      "id": "lucky-2025-governance",
+      "title": "Lucky Cement Annual Report 2025 — CEO profile and board",
+      "publisher": "Lucky Cement Limited",
+      "url": "https://assets.lucky-cement.com/Annual_Report_2025_7c9f8f1249.pdf",
+      "as_of": "2025-06-30",
+      "page": "Printed pages 51 and 66 (PDF pages 53 and 68)",
+      "accessed": "2026-10-17",
+      "kind": "annual_report"
+    },
+    {
+      "id": "lucky-profile",
+      "title": "Lucky Cement — company profile",
+      "publisher": "Lucky Cement Limited",
+      "url": "https://lucky-cement.com/en/corporate/company-profile",
+      "as_of": null,
+      "page": null,
+      "accessed": "2026-10-17",
+      "kind": "company_page"
+    },
+    {
+      "id": "dgkc-2025-cross-investments",
+      "title": "DG Khan Cement Annual Report 2025 — cross-investments",
+      "publisher": "D.G. Khan Cement Company Limited",
+      "url": "https://www.dgcement.com/financial-reports/DGAnnual2025.pdf",
+      "as_of": "2025-06-30",
+      "page": "Printed p. 17; PDF p. 18",
+      "accessed": "2026-10-17",
+      "kind": "annual_report"
+    },
+    {
+      "id": "dgkc-2025-profile",
+      "title": "DG Khan Cement Annual Report 2025 — Nishat profile",
+      "publisher": "D.G. Khan Cement Company Limited",
+      "url": "https://www.dgcement.com/financial-reports/DGAnnual2025.pdf",
+      "as_of": "2025-06-30",
+      "page": "Printed page 15 (PDF 1-based page 16)",
+      "accessed": "2026-10-17",
+      "kind": "annual_report"
+    },
+    {
+      "id": "dgkc-2025-board",
+      "title": "DG Khan Cement Annual Report 2025 — company information",
+      "publisher": "D.G. Khan Cement Company Limited",
+      "url": "https://www.dgcement.com/financial-reports/DGAnnual2025.pdf",
+      "as_of": "2025-06-30",
+      "page": "Printed page 11 (PDF 1-based page 12)",
+      "accessed": "2026-10-17",
+      "kind": "annual_report"
+    },
+    {
+      "id": "engro-2025-directors",
+      "title": "Engro Holdings Annual Report 2025 — related-party shareholdings and chairman",
+      "publisher": "Engro Holdings Limited",
+      "url": "https://dps.psx.com.pk/download/document/273640.pdf",
+      "as_of": "2025-12-31",
+      "page": "Printed p. 103 (chairman) and p. 167 (shareholding); PDF spreads 55 and 87",
+      "accessed": "2026-10-17",
+      "kind": "annual_report"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "engro-holdings__ownership__engro-corporation",
+      "source": "engro-holdings",
+      "target": "engro-corporation",
+      "type": "ownership",
+      "percentage": 100,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-holdings"
+      ],
+      "evidence": "Note 1.6 discloses 100% direct ownership.",
+      "status": "reviewed",
+      "notes": "Scheme effective January 1, 2025; prior 39.97% stake must not be mixed with this snapshot."
+    },
+    {
+      "id": "engro-corporation__ownership__engro-energy",
+      "source": "engro-corporation",
+      "target": "engro-energy",
+      "type": "ownership",
+      "percentage": 100,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-holdings"
+      ],
+      "evidence": "Note 1.6 lists this Engro Corporation investment.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "engro-corporation__ownership__engro-eximp-fze",
+      "source": "engro-corporation",
+      "target": "engro-eximp-fze",
+      "type": "ownership",
+      "percentage": 100,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-holdings"
+      ],
+      "evidence": "Note 1.6 lists this Engro Corporation investment.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "engro-corporation__ownership__elengy-terminal-pakistan",
+      "source": "engro-corporation",
+      "target": "elengy-terminal-pakistan",
+      "type": "ownership",
+      "percentage": 56,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-holdings"
+      ],
+      "evidence": "Note 1.6 lists this Engro Corporation investment.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "engro-corporation__ownership__engro-fertilizers",
+      "source": "engro-corporation",
+      "target": "engro-fertilizers",
+      "type": "ownership",
+      "percentage": 56.27,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-holdings"
+      ],
+      "evidence": "Note 1.6 lists this Engro Corporation investment.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "engro-corporation__ownership__engro-polymer",
+      "source": "engro-corporation",
+      "target": "engro-polymer",
+      "type": "ownership",
+      "percentage": 56.19,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-holdings"
+      ],
+      "evidence": "Note 1.6 lists this Engro Corporation investment.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "engro-corporation__ownership__engro-connect",
+      "source": "engro-corporation",
+      "target": "engro-connect",
+      "type": "ownership",
+      "percentage": 100,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-holdings"
+      ],
+      "evidence": "Note 1.6 lists this Engro Corporation investment.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "engro-corporation__ownership__engro-technical-solutions",
+      "source": "engro-corporation",
+      "target": "engro-technical-solutions",
+      "type": "ownership",
+      "percentage": 100,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-holdings"
+      ],
+      "evidence": "Note 1.6 lists this Engro Corporation investment.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "engro-corporation__ownership__engro-vopak",
+      "source": "engro-corporation",
+      "target": "engro-vopak",
+      "type": "ownership",
+      "percentage": 50,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-holdings"
+      ],
+      "evidence": "Note 1.6 lists this Engro Corporation investment.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "engro-corporation__ownership__frieslandcampina-engro",
+      "source": "engro-corporation",
+      "target": "frieslandcampina-engro",
+      "type": "ownership",
+      "percentage": 39.93,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-structure"
+      ],
+      "evidence": "Group chart shows 39.93%; note 1.6 rounds to 39.9%.",
+      "status": "reviewed",
+      "notes": "Minority associate; not a wholly owned or majority owned Engro company."
+    },
+    {
+      "id": "engro-connect__ownership__engro-enfrashare",
+      "source": "engro-connect",
+      "target": "engro-enfrashare",
+      "type": "ownership",
+      "percentage": 100,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-subsidiaries"
+      ],
+      "evidence": "Subsidiary note explicitly discloses wholly owned status.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "engro-connect__ownership__deodar",
+      "source": "engro-connect",
+      "target": "deodar",
+      "type": "ownership",
+      "percentage": 100,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-subsidiaries"
+      ],
+      "evidence": "Subsidiary note explicitly discloses wholly owned status.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "elengy-terminal-pakistan__ownership__engro-elengy-terminal",
+      "source": "elengy-terminal-pakistan",
+      "target": "engro-elengy-terminal",
+      "type": "ownership",
+      "percentage": 100,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-subsidiaries"
+      ],
+      "evidence": "Subsidiary note explicitly discloses wholly owned status.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "yunus-brothers-group__affiliation__lucky-cement",
+      "source": "yunus-brothers-group",
+      "target": "lucky-cement",
+      "type": "affiliation",
+      "percentage": null,
+      "as_of": null,
+      "source_ids": [
+        "lucky-profile"
+      ],
+      "evidence": "Official profile calls Lucky Cement the group flagship.",
+      "status": "reviewed",
+      "notes": "Business-group affiliation only; the group label is not a legal shareholder."
+    },
+    {
+      "id": "lucky-cement__ownership__lucky-core",
+      "source": "lucky-cement",
+      "target": "lucky-core",
+      "type": "ownership",
+      "percentage": 55,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-investments"
+      ],
+      "evidence": "Note 7 gives the direct equity percentage.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "lucky-cement__ownership__lucky-holdings",
+      "source": "lucky-cement",
+      "target": "lucky-holdings",
+      "type": "ownership",
+      "percentage": 75,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-investments"
+      ],
+      "evidence": "Note 7 gives the direct equity percentage.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "lucky-cement__ownership__lcl-investment-holdings",
+      "source": "lucky-cement",
+      "target": "lcl-investment-holdings",
+      "type": "ownership",
+      "percentage": 100,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-investments"
+      ],
+      "evidence": "Note 7 gives the direct equity percentage.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "lucky-cement__ownership__lucky-electric",
+      "source": "lucky-cement",
+      "target": "lucky-electric",
+      "type": "ownership",
+      "percentage": 100,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-investments"
+      ],
+      "evidence": "Note 7 gives the direct equity percentage.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "lucky-cement__ownership__lucky-motor",
+      "source": "lucky-cement",
+      "target": "lucky-motor",
+      "type": "ownership",
+      "percentage": 71.14,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-investments"
+      ],
+      "evidence": "Note 7 gives the direct equity percentage.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "lucky-cement__ownership__yunus-energy",
+      "source": "lucky-cement",
+      "target": "yunus-energy",
+      "type": "ownership",
+      "percentage": 20,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-investments"
+      ],
+      "evidence": "Note 7 gives the direct equity percentage.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "lucky-cement__ownership__national-resources",
+      "source": "lucky-cement",
+      "target": "national-resources",
+      "type": "ownership",
+      "percentage": 33.3,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-investments"
+      ],
+      "evidence": "Note 7 gives the direct equity percentage.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "lucky-core__ownership__lucky-core-powergen",
+      "source": "lucky-core",
+      "target": "lucky-core-powergen",
+      "type": "ownership",
+      "percentage": 100,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-subsidiaries"
+      ],
+      "evidence": "Note 1.5 identifies the direct subsidiary stake.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "lucky-core__ownership__lucky-tg",
+      "source": "lucky-core",
+      "target": "lucky-tg",
+      "type": "ownership",
+      "percentage": 51,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-subsidiaries"
+      ],
+      "evidence": "Note 1.5 identifies the direct subsidiary stake.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "yunus-textile__ownership__lucky-cement",
+      "source": "yunus-textile",
+      "target": "lucky-cement",
+      "type": "ownership",
+      "percentage": 7.7935,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-shareholders"
+      ],
+      "evidence": "Note 38.1.1 reports direct shareholding in Lucky Cement.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "lucky-energy__ownership__lucky-cement",
+      "source": "lucky-energy",
+      "target": "lucky-cement",
+      "type": "ownership",
+      "percentage": 3.9191,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-shareholders"
+      ],
+      "evidence": "Note 38.1.1 reports direct shareholding in Lucky Cement.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "muhammad-ali-tabba__director__lucky-cement",
+      "source": "muhammad-ali-tabba",
+      "target": "lucky-cement",
+      "type": "director",
+      "percentage": null,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-governance"
+      ],
+      "evidence": "Board list identifies Tabba as CEO/director.",
+      "status": "reviewed",
+      "notes": "Position disclosed in the FY2025 annual report; does not imply personal ownership."
+    },
+    {
+      "id": "muhammad-ali-tabba__director__lucky-core",
+      "source": "muhammad-ali-tabba",
+      "target": "lucky-core",
+      "type": "director",
+      "percentage": null,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-governance"
+      ],
+      "evidence": "CEO profile discloses vice-chairmanship.",
+      "status": "reviewed",
+      "notes": "Position disclosed in the FY2025 annual report; does not imply personal ownership."
+    },
+    {
+      "id": "muhammad-ali-tabba__director__lucky-motor",
+      "source": "muhammad-ali-tabba",
+      "target": "lucky-motor",
+      "type": "director",
+      "percentage": null,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-governance"
+      ],
+      "evidence": "CEO profile discloses chairmanship.",
+      "status": "reviewed",
+      "notes": "Position disclosed in the FY2025 annual report; does not imply personal ownership."
+    },
+    {
+      "id": "muhammad-ali-tabba__director__yunus-textile",
+      "source": "muhammad-ali-tabba",
+      "target": "yunus-textile",
+      "type": "director",
+      "percentage": null,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "lucky-2025-governance"
+      ],
+      "evidence": "CEO profile discloses chairmanship.",
+      "status": "reviewed",
+      "notes": "Position disclosed in the FY2025 annual report; does not imply personal ownership."
+    },
+    {
+      "id": "nishat-group__affiliation__nishat-mills",
+      "source": "nishat-group",
+      "target": "nishat-mills",
+      "type": "affiliation",
+      "percentage": null,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-profile"
+      ],
+      "evidence": "Nishat group profile identifies this member.",
+      "status": "reviewed",
+      "notes": "Group affiliation only; no equity stake or ultimate ownership is asserted."
+    },
+    {
+      "id": "nishat-group__affiliation__dg-khan-cement",
+      "source": "nishat-group",
+      "target": "dg-khan-cement",
+      "type": "affiliation",
+      "percentage": null,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-profile"
+      ],
+      "evidence": "Nishat group profile identifies this member.",
+      "status": "reviewed",
+      "notes": "Group affiliation only; no equity stake or ultimate ownership is asserted."
+    },
+    {
+      "id": "nishat-mills__ownership__dg-khan-cement",
+      "source": "nishat-mills",
+      "target": "dg-khan-cement",
+      "type": "ownership",
+      "percentage": 31.4,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-cross-investments"
+      ],
+      "evidence": "Cross-investment table lists NML as shareholder.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; later changes are not captured."
+    },
+    {
+      "id": "dg-khan-cement__ownership__mcb-bank",
+      "source": "dg-khan-cement",
+      "target": "mcb-bank",
+      "type": "ownership",
+      "percentage": 8.63,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-cross-investments"
+      ],
+      "evidence": "Cross-investment table reports DGKC direct holding.",
+      "status": "reviewed",
+      "notes": "8.63% total direct stake: 1.80% long-term plus 6.83% short-term in standalone notes 19 and 24; avoid mixing group-consolidated holdings."
+    },
+    {
+      "id": "dg-khan-cement__ownership__nishat-mills",
+      "source": "dg-khan-cement",
+      "target": "nishat-mills",
+      "type": "ownership",
+      "percentage": 8.61,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-cross-investments"
+      ],
+      "evidence": "Cross-investment table reports DGKC direct holding.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; minority investment is not a claim of ultimate control."
+    },
+    {
+      "id": "dg-khan-cement__ownership__adamjee-insurance",
+      "source": "dg-khan-cement",
+      "target": "adamjee-insurance",
+      "type": "ownership",
+      "percentage": 7.97,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-cross-investments"
+      ],
+      "evidence": "Cross-investment table reports DGKC direct holding.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; minority investment is not a claim of ultimate control."
+    },
+    {
+      "id": "dg-khan-cement__ownership__nishat-packaging",
+      "source": "dg-khan-cement",
+      "target": "nishat-packaging",
+      "type": "ownership",
+      "percentage": 55,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-cross-investments"
+      ],
+      "evidence": "Cross-investment table reports DGKC direct holding.",
+      "status": "reviewed",
+      "notes": "Disclosed direct subsidiary stake at the reporting date; later changes are not captured."
+    },
+    {
+      "id": "dg-khan-cement__ownership__nishat-dairy",
+      "source": "dg-khan-cement",
+      "target": "nishat-dairy",
+      "type": "ownership",
+      "percentage": 55.1,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-cross-investments"
+      ],
+      "evidence": "Cross-investment table reports DGKC direct holding.",
+      "status": "reviewed",
+      "notes": "Disclosed direct subsidiary stake at the reporting date; later changes are not captured."
+    },
+    {
+      "id": "dg-khan-cement__ownership__nishat-hotels",
+      "source": "dg-khan-cement",
+      "target": "nishat-hotels",
+      "type": "ownership",
+      "percentage": 8.55,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-cross-investments"
+      ],
+      "evidence": "Cross-investment table reports DGKC direct holding.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; minority investment is not a claim of ultimate control."
+    },
+    {
+      "id": "dg-khan-cement__ownership__hyundai-nishat",
+      "source": "dg-khan-cement",
+      "target": "hyundai-nishat",
+      "type": "ownership",
+      "percentage": 10,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-cross-investments"
+      ],
+      "evidence": "Cross-investment table reports DGKC direct holding.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; minority investment is not a claim of ultimate control."
+    },
+    {
+      "id": "dg-khan-cement__ownership__nishat-chunian-power",
+      "source": "dg-khan-cement",
+      "target": "nishat-chunian-power",
+      "type": "ownership",
+      "percentage": 1.55,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-cross-investments"
+      ],
+      "evidence": "Cross-investment table reports DGKC direct holding.",
+      "status": "reviewed",
+      "notes": "Disclosed snapshot; minority investment is not a claim of ultimate control."
+    },
+    {
+      "id": "naz-mansha__ownership__dg-khan-cement",
+      "source": "naz-mansha",
+      "target": "dg-khan-cement",
+      "type": "ownership",
+      "percentage": 0.05,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-cross-investments"
+      ],
+      "evidence": "Named shareholder percentage in cross-investment table.",
+      "status": "reviewed",
+      "notes": "Rounded disclosed percentage; no family or beneficial ownership beyond the named holder is inferred."
+    },
+    {
+      "id": "raza-mansha__ownership__dg-khan-cement",
+      "source": "raza-mansha",
+      "target": "dg-khan-cement",
+      "type": "ownership",
+      "percentage": 2.92,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-cross-investments"
+      ],
+      "evidence": "Named shareholder percentage in cross-investment table.",
+      "status": "reviewed",
+      "notes": "Rounded disclosed percentage; no family or beneficial ownership beyond the named holder is inferred."
+    },
+    {
+      "id": "umer-mansha__ownership__dg-khan-cement",
+      "source": "umer-mansha",
+      "target": "dg-khan-cement",
+      "type": "ownership",
+      "percentage": 6.29,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-cross-investments"
+      ],
+      "evidence": "Named shareholder percentage in cross-investment table.",
+      "status": "reviewed",
+      "notes": "Rounded disclosed percentage; no family or beneficial ownership beyond the named holder is inferred."
+    },
+    {
+      "id": "hassan-mansha__ownership__dg-khan-cement",
+      "source": "hassan-mansha",
+      "target": "dg-khan-cement",
+      "type": "ownership",
+      "percentage": 6.19,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-cross-investments"
+      ],
+      "evidence": "Named shareholder percentage in cross-investment table.",
+      "status": "reviewed",
+      "notes": "Rounded disclosed percentage; no family or beneficial ownership beyond the named holder is inferred."
+    },
+    {
+      "id": "naz-mansha__director__dg-khan-cement",
+      "source": "naz-mansha",
+      "target": "dg-khan-cement",
+      "type": "director",
+      "percentage": null,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-board"
+      ],
+      "evidence": "Board list identifies chairperson/non-executive director.",
+      "status": "reviewed",
+      "notes": "Board appointment is distinct from share ownership."
+    },
+    {
+      "id": "raza-mansha__director__dg-khan-cement",
+      "source": "raza-mansha",
+      "target": "dg-khan-cement",
+      "type": "director",
+      "percentage": null,
+      "as_of": "2025-06-30",
+      "source_ids": [
+        "dgkc-2025-board"
+      ],
+      "evidence": "Board list identifies chief executive/executive director.",
+      "status": "reviewed",
+      "notes": "Board appointment is distinct from share ownership."
+    },
+    {
+      "id": "hussain-dawood__ownership__engro-holdings",
+      "source": "hussain-dawood",
+      "target": "engro-holdings",
+      "type": "ownership",
+      "percentage": 3.82,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-directors"
+      ],
+      "evidence": "Note 22.2 discloses Dawood personal shareholding of 3.82%.",
+      "status": "reviewed",
+      "notes": "Disclosed personal holding or board role only; no aggregate family control claim."
+    },
+    {
+      "id": "hussain-dawood__director__engro-holdings",
+      "source": "hussain-dawood",
+      "target": "engro-holdings",
+      "type": "director",
+      "percentage": null,
+      "as_of": "2025-12-31",
+      "source_ids": [
+        "engro-2025-directors"
+      ],
+      "evidence": "Governance statement identifies Dawood as chairman.",
+      "status": "reviewed",
+      "notes": "Disclosed personal holding or board role only; no aggregate family control claim."
+    }
+  ]
+}
